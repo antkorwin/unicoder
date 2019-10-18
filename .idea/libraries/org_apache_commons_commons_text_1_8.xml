@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="org.apache.commons:commons-text:1.8" type="repository">
+    <properties maven-id="org.apache.commons:commons-text:1.8" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-text/1.8/commons-text-1.8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,45 @@
+<idea-plugin>
+  <id>com.your.company.unique.plugin.id</id>
+  <name>Unicoder</name>
+  <version>1.0.3</version>
+  <vendor email="antkorwin@gmail.com" url="http://antkorwin.com">Anatoliy Korovin</vendor>
+
+  <description>
+    <![CDATA[
+      Convert a native string to the escaped valid java UTF-8 string.
+    ]]>
+  </description>
+
+
+  <change-notes><![CDATA[
+        <ul>
+            <li>v1.0 - Initial release of the Unicoder plugin</li>
+        </ul>
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+    <action id="com.antkorwin.unicoder.ConvertToUnicodeAction"
+            class="com.antkorwin.unicoder.ConvertToUnicodeAction"
+            text="Convert To Unicode Escaped String"
+            icon="ActionIcons.PLUGIN_ICON"
+            description="Convert a native string value to the Unicode Escaped String">
+      <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+    </action>
+  </actions>
+
+</idea-plugin>
