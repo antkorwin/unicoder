@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.your.company.unique.plugin.id</id>
   <name>Unicoder</name>
-  <version>1.0.3</version>
+  <version>1.0</version>
   <vendor email="antkorwin@gmail.com" url="http://antkorwin.com">Anatoliy Korovin</vendor>
 
   <description>

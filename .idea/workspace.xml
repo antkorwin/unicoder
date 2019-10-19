@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1108480-c108-4353-b1ae-6bd6efbafd04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/live.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/META-INF/plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/antkorwin/unicoder/ConvertToUnicodeAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/antkorwin/unicoder/ConvertToUnicodeAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icons/ActionIcons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/ActionIcons.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,21 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="360">
+              <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="135">
-                <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+                <caret line="9" column="98" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="98" />
               </first_editor>
               <second_editor />
             </state>
@@ -88,8 +84,8 @@
         <option value="$PROJECT_DIR$/src/com/antkorwin/unicoder/ConvertToUnicodeAction.java" />
         <option value="$PROJECT_DIR$/src/icons/ActionIcons.java" />
         <option value="$PROJECT_DIR$/resources/application.properties" />
-        <option value="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
       </list>
     </option>
   </component>
@@ -121,6 +117,11 @@
               <item name="unicoder" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unicoder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unicoder" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="unicoder" type="b2602c69:ProjectViewProjectNode" />
@@ -223,7 +224,7 @@
       <workItem from="1571385248735" duration="357000" />
       <workItem from="1571385800767" duration="1218000" />
       <workItem from="1571404326011" duration="153000" />
-      <workItem from="1571404514995" duration="3646000" />
+      <workItem from="1571404514995" duration="4134000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1571405726561</created>
@@ -232,11 +233,32 @@
       <option name="project" value="LOCAL" />
       <updated>1571405726561</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="improve documentation">
+      <created>1571492147905</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571492147905</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix the path of the live demo">
+      <created>1571492227591</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571492227591</updated>
+    </task>
+    <task id="LOCAL-00004" summary="improve documentation">
+      <created>1571492397162</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571492397162</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9891000" />
+    <option name="totallyTimeSpent" value="10379000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -279,7 +301,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="fix the path of the live demo" />
+    <MESSAGE value="improve documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="improve documentation" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/resources/icons/icon.svg">
@@ -358,13 +382,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/antkorwin/unicoder/ConvertToUnicodeAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -379,9 +396,16 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="135">
-            <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            <caret line="9" column="98" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="98" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
         </state>
       </provider>
     </entry>
