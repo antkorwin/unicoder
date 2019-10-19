@@ -15,7 +15,10 @@ import org.jetbrains.annotations.NotNull;
 /**
  * Created on 16/10/2019
  * <p>
- * TODO: replace on the JavaDoc
+ * The action to convert from a native unicode string value
+ * to the valid java escaped string.
+ *
+ * This action convert selected string in editor to a valid UTF-8 value.
  *
  * @author Korovin Anatoliy
  */
@@ -32,8 +35,9 @@ public class ConvertToUnicodeAction extends AnAction {
         int start = primaryCaret.getSelectionStart();
         int end = primaryCaret.getSelectionEnd();
 
-        // Replace the selection with a unicode string.
+        // Replace the selection with a unicode string
         String selectedText = document.getText(TextRange.from(start, end-start));
+        // ToDo: implement this locally, instead of using the apache commons:
         String result = StringEscapeUtils.escapeJava(selectedText);
 
         WriteCommandAction.runWriteCommandAction(project,

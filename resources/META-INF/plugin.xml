@@ -7,6 +7,9 @@
   <description>
     <![CDATA[
       Convert a native string to the escaped valid java UTF-8 string.
+
+      <img src="https://raw.githubusercontent.com/leomillon/uuid-generator-plugin/master/screenshots/generate_random_uuid.png"
+                 border="0" width="500" height="72" alt="generate_random_uuid"/>
     ]]>
   </description>
 
