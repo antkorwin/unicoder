@@ -7,4 +7,4 @@ This plugin converts a selected string in the IDEA editor to a valid(Java) UTF-8
 Escapes all special characters and converts native UTF-8 symbols to a code sequence.
 
 
-![Unicoder live demo](https://raw.githubusercontent.com/antkorwin/unicoder/master/live.gif)
+![Unicoder live demo](https://raw.githubusercontent.com/antkorwin/unicoder/master/screens/live.gif)
