@@ -12,5 +12,8 @@ import com.intellij.openapi.util.IconLoader;
  */
 public class ActionIcons {
 
-	public static final Icon PLUGIN_ICON = IconLoader.getIcon("/icons/icon_16x16.svg");
+	/**
+	 * A small icon to show in the edit popup menu
+	 */
+	public static final Icon PLUGIN_ICON = IconLoader.getIcon("/icons/icon_mini.svg");
 }
